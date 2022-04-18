@@ -4,9 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" 
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>PersonalTraining</title>
   </head>
+
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';"
+      >&times;</span>
+    <p><strong>Attention!</strong>You have to contact us before your first sign in...hurry up just a few spaces available!</p>
+  </div>
+
+  <div id="home"></div>
   <body>
-    <h1>Jose Mondragon Personal Trainer</h1>
+    <div class="container" >
+        <p class="red"><a href="#Individual"><span class="material-icons md-36 iconHeadBar">person</span> Individual Services</a></p>
+        <p class="green"><a href="#Group"><span class="material-icons md-36 iconHeadBar">groups</span> Group Services</a></p>
+        <p class="blue"><a href="#Online"><span class="material-icons md-36 iconHeadBar">email</span> Online Services</a></p>
+      </div>
+
+      <div class="sidenav">
+        <a href="#home"><span class="material-icons md-36 iconHeadBar">home</span>Home</a>
+      <div class="dropdown">
+        <a href="#workouts" class="dropdown_btn"><span class="material-icons md-36 iconHeadBar">fitness_center</span>Workouts</a>
+        <div class="dropdown_items">
+          <a onclick="location.href='Documents/womensprogram.pdf'">women</a>
+          <a onclick="location.href='Documents/womensprogram.pdf'">atHome</a>
+          <a onclick="location.href='Documents/mensprogram.pdf'">men</a>
+        </div>
+      </div>
+        <a href="#contact"><span class="material-icons md-36 iconHeadBar">send</span>Contact</a>
+        <a href="#about"><span class="material-icons md-36 iconHeadBar">badge</span>About</a>
+    </div>
+
+
+    <div class="sign_in">
+         <p id="sign_e"><input></input></p>
+         <p id="email">Email</p>
+         <p id="sign_p"><Input></Input></p>
+         <p id="password">Password</p>
+         <button id="butt" type="submit">Sign In</button>
+    </div>
+     
+
+    <div class="full_content">
+      <p id="about">
+        About About About... ipsum dolor sit amet consectetur adipisicing elit. 
+        Quaerat neque incidunt veniam expedita rerum excepturi, porro laboriosam sed
+        consequatur illum praesentium deleniti nihil laudantium. Aliquam ipsam
+        alias quod delectus incidunt?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae
+        perferendis sit ad. Quasi repudiandae id, illo incidunt adipisci,
+        veritatis voluptas obcaecati ad dolore praesentium deleniti tempore,
+        nemo aspernatur consectetur! ipsum dolor sit amet consectetur
+        adipisicing elit. Pariatur fugit consectetur, perferendis,
+        necessitatibus maxime qui ab aliquid incidunt nobis eius modi
+        voluptates eveniet illum. Dicta itaque dolor tempore nulla. Dolorum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        fugit consectetur, perferendis, necessitatibus maxime qui ab aliquid
+        incidunt nobis eius modi voluptates eveniet illum. Dicta itaque dolor
+        tempore nulla. Dolorum!
+      </p>
+      <p>
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque
+        incidunt veniam expedita rerum excepturi, porro laboriosam sed
+        consequatur illum praesentium deleniti nihil laudantium. Aliquam ipsam
+        alias quod delectus incidunt?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae
+        perferendis sit ad. Quasi repudiandae id, illo incidunt adipisci,
+        veritatis voluptas obcaecati ad dolore praesentium deleniti tempore,
+        nemo aspernatur consectetur! ipsum dolor sit amet consectetur
+        adipisicing elit. Pariatur fugit consectetur, perferendis,
+        necessitatibus maxime qui ab aliquid incidunt nobis eius modi
+        voluptates eveniet illum. Dicta itaque dolor tempore nulla. Dolorum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        fugit consectetur, perferendis, necessitatibus maxime qui ab aliquid
+        incidunt nobis eius modi voluptates eveniet illum. Dicta itaque dolor
+        tempore nulla. Dolorum! 
+      </p>
+     
+      <p></p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque
+        incidunt veniam expedita rerum excepturi, porro laboriosam sed
+        consequatur illum praesentium deleniti nihil laudantium. Aliquam ipsam
+        alias quod delectus incidunt?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quae
+        perferendis sit ad. Quasi repudiandae id, illo incidunt adipisci,
+        nemo aspernatur consectetur! ipsum dolor sit amet consectetur
+        adipisicing elit. Pariatur fugit consectetur, perferendis,
+        necessitatibus maxime qui ab aliquid incidunt nobis eius modi
+        voluptates eveniet illum. Dicta itaque dolor tempore nulla. Dolorum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        fugit consectetur, perferendis, necessitatibus maxime qui ab aliquid
+        incidunt nobis eius modi voluptates eveniet illum. Dicta itaque dolor
+        tempore nulla. Dolorum!
+        veritatis voluptas obcaecati ad dolore praesentium deleniti tempore,
+      
+      
+    </div>
+    
   </body>
+  <footer class= "container2" id="contact">
+      <p class="first"><a href="https://www.facebook.com/"><span class='bi bi-facebook' style='color:#131b5e'></span> Facebook</a></p>
+      <p class="second"><a href="https://www.instagram.com"><span class='bi bi-instagram' style='color:#cab112'></span> Instagram</a></p>
+      
+  </footer>
 </html>
