@@ -203,6 +203,7 @@ p a {
 
 /* message before sign in */
 .alert {
+    font-family: 'Permanent Marker', cursive;
     margin: 0%;
     border: 0%;
     padding: 0%;
